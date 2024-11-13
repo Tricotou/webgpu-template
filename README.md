@@ -44,6 +44,15 @@ Once started, open your (**WebGPU ready**) browser and navigate to:
 
 http://localhost:5173/
 
+`NB`: If you are a **Linux** user, you should use dev version of Google Chrome :
+
+```bash
+# Install
+sudo apt install google-chrome-unstable
+# Run
+google-chrome-unstable --enable-unsafe-webgpu --enable-features=Vulkan http://localhost:5173/
+```
+
 ## Preview
 
 Here is a preview of the interface in action:
